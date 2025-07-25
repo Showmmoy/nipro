@@ -1,0 +1,27 @@
+font-family: 
+        Roboto- 400, 500
+        lato - 400-700
+
+font awesome
+pe icon
+
+font family where is exactly is using the most
+            Menu, title- Roboto
+            button - roboto medium
+            font-family: "Lato", sans-serif;
+            font-family: "Roboto", sans-serif;
+Color-----
+    black: #333333;
+    ash: #8e8e8e;
+
+<i class="fa-solid fa-right-long"></i>
+<i class="fa-solid fa-magnifying-glass"></i>
+
+xxl-lg               md              sm-col
+header
+p    20
+h1   30               25                20
+
+cm_title  30          25
+shape     50          40
+
