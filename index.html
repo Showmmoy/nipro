@@ -259,59 +259,11 @@
           </div>
         </div>
       </div>
-      <div class="container container_recent">
-        <div class="portfolio-menu">
-          <ul>
-            <li class="active" data-filter="*">All</li>
-            <li data-filter=".web">Webdesign</li>
-            <li data-filter=".graphic">Graphic</li>
-            <li data-filter=".branding">Branding</li>
-            <li data-filter=".seo">seo</li>
-          </ul>
-        </div>
-        <div class="portfolio-item">
-  <div class="item web">
-    <div class="portfolio-box">
-      <img src="images/webdesign.jpg" alt="webdesign">
-      <div class="overlay">
-        <div class="overlay-content">
-          <div class="icon"><i class="fas fa-plus"></i></div>
+      <div class="row">
+        <div class="col lg-12">
 
-          <h4>PROJECT TITLE</h4>
-          <p>Web Design</p>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="item graphic">
-    <div class="portfolio-box">
-      <img src="images/graphics2.jpg" alt="graphics">
-      <div class="overlay">
-        <div class="overlay-content">
-          <div class="icon"><i class="fas fa-plus"></i></div>
-
-          <h4>PROJECT TITLE</h4>
-          <p>Graphic Design</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="item seo">
-    <div class="portfolio-box">
-      <img src="images/seo.jpg" alt="seo">
-      <div class="overlay">
-        <div class="overlay-content">
-          <div class="icon"><i class="fas fa-plus"></i></div>
-          <h4>PROJECT TITLE</h4>
-          <p>SEO</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
       </div>
       
           
@@ -320,24 +272,10 @@
 
 
       <script src="js/jquery.min.js"></script>
-      <script src="./vendor/isotope.pkgd.min.js"></script>
+      <script src="vendor/mixitup-3/mixitup.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/script.js"></script>
-      <script>
-        $('.portfolio-item').isotope({
-          itemSelector:'.item',
-          layoutMode: 'fitRows'
-        });
-        $('.portfolio-menu ul li').click(function(){
-          $('.portfolio-menu ul li').removeClass('active');
-          $(this).addClass('active');
-          var selector = $(this).attr('data-filter');
-          $('.portfolio-item').isotope({
-            filter: selector
-          });
-          return false;
-        });
-      </script>
+      
 </body>
 
     
