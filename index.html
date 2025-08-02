@@ -259,22 +259,66 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row ">
         <div class="col lg-12">
-          <div class="control">
-            <button type="button" data-filter="all">All</button>
-            <button type="button" data-filter=".category-a">Web Design</button>
-            <button type="button" data-filter=".category-b">Digital Marketing</button>
-            <button type="button" data-filter=".category-c">Graphics Design</button>
-            <button type="button" data-filter=".category-c">Wordpress</button>
+          <div class="control rw_control text-center">
+            <button type="button items" data-filter="all">All</button>
+            <button type="button items" data-filter=".webdesign">Web Design</button>
+            <button type="button items" data-filter=".digitalmarketing">Digital Marketing</button>
+            <button type="button items" data-filter=".graphicsdesign">Graphics Design</button>
+            <button type="button items" data-filter=".wordpress">Wordpress</button>
           </div>
           </div>
           <div class="col-lg-12">
-            <div class="containers" data-ref="mixitup-container">
-            <div class="items mix category-a" data-order="1" data-ref="mixitup-target"></div>
-            <div class="items mix category-b" data-order="2" data-ref="mixitup-target"></div>
-            <div class="items mix category-b category-c" data-order="3" data-ref="mixitup-target"></div>
-            <div class="items mix category-a category-d" data-order="4" data-ref="mixitup-target"></div>
+            <div class="wrapper" data-ref="mixitup-container">
+              <div class="row">
+                <!-- Recent work item 1-->
+                <div class="col-lg-4 col-sm-6 mix webdesign cp30" data-order="1" data-ref="mixitup-target">
+                  <div class="rw_item">
+                    <img src="images/wd.jpg" alt="nipro agency" class="w-100">
+                    <h2>digipixi Website</h2>
+                    <p>Web Design</p>
+
+                  </div>
+                </div>
+                <!-- Recent work item ends-->
+                 <!-- Recent work item 2-->
+                <div class="col-lg-4 col-sm-6 mix webdesign cp30" data-order="2" data-ref="mixitup-target">
+                  <div class="rw_item">
+                    <img src="images/wd2.jpg" alt="nipro agency" class="w-100">
+                  </div>
+                </div>
+                <!-- Recent work item ends-->
+                 <!-- Recent work item 3-->
+                <div class="col-lg-4 col-sm-6 mix digitalmarketing cp30" data-order="3" data-ref="mixitup-target">
+                  <div class="rw_item">
+                    <img src="images/dm.jpg" alt="nipro agency" class="w-100">
+                  </div>
+                </div>
+                <!-- Recent work item ends-->
+                 <!-- Recent work item 4-->
+                <div class="col-lg-4 col-sm-6 mix digitalmarketing cp30" data-order="4" data-ref="mixitup-target">
+                  <div class="rw_item">
+                    <img src="images/wd2.jpg" alt="nipro agency" class="w-100">
+                  </div>
+                </div>
+                <!-- Recent work item ends-->
+                 <!-- Recent work item 5-->
+                <div class="col-lg-4 col-sm-6 mix graphicsdesign cp30" data-order="5" data-ref="mixitup-target">
+                  <div class="rw_item">
+                    <img src="images/gd.jpg" alt="nipro agency" class="w-100">
+                  </div>
+                </div>
+                <!-- Recent work item ends-->
+                 <!-- Recent work item 6-->
+                <div class="col-lg-4 col-sm-6 mix wordpress cp30" data-order="6" data-ref="mixitup-target">
+                  <div class="rw_item">
+                    <img src="images/gd.jpg" alt="nipro agency" class="w-100">
+                  </div>
+                </div>
+                <!-- Recent work item ends-->
+              </div>
+           
             </div>
           </div>
         
@@ -285,20 +329,14 @@
         
   <!-- Recent work section ends here -->
 
+  
+
 
       <script src="js/jquery.min.js"></script>
       <script src="vendor/mixitup-3/mixitup.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/script.js"></script>
-      <script>
-            var containerEl = document.querySelector('[data-ref~="mixitup-container"]');
-
-            var mixer = mixitup(containerEl, {
-                selectors: {
-                    target: '[data-ref~="mixitup-target"]'
-                }
-            });
-        </script>
+     
       
 </body>
 

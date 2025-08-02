@@ -53,6 +53,18 @@
         font-weight: 700;
     }
     /* about ends here */
+    /* Recent work section start here */
+    .rw_control {
+        margin: 10px 0 30px;
+    }
+    .cp30{
+        padding: 0 15px;
+    }
+    .rw_item {
+        margin: 20px 0 0;
+    }
+
+    /* Recent work section ends here */
     }
     
     
@@ -116,6 +128,17 @@
         font-weight: 700;
     }
     /* about ends here */
+    /* Recent work section start here */
+    .rw_control {
+        margin: 10px 0 30px;
+    }
+    .cp30{
+        padding: 0 15px;
+    }
+    .rw_item {
+        margin: 20px 0 0;
+    }
+    /* Recent work section ends here */
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -165,6 +188,15 @@
         font-weight: 700;
     }
     /* about ends here */
+    /* Recent work section start here */
+    .rw_control {
+        margin: 45px 0 30px;
+    }
+    /* Recent work section start here */
+    .rw_control {
+        margin: 45px 0 30px;
+    }
+    /* Recent work section ends here */
 }
 
 
@@ -185,6 +217,7 @@
     border: 2px solid var(--bla);
     font-size: 14px;
     /* about ends here */
+}
 }
     
 /* Extra large devices (desktops, 1200px and up)*/

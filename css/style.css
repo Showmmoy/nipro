@@ -290,11 +290,45 @@ header{
     margin-top: 100px;
     background-color: rgb(242, 242, 242);
 }
-.items {
-    width: 100px;
-    height: 100px;
-    background-color: teal;
-    border: 5px solid black;
+.rw_control{
+    margin: 65px 0 30px;
 }
+.items {
+    margin-bottom: 20px;
+}
+.rw_control button{
+    padding: 15px 10px;
+    background-color: transparent;
+    border: none;
+    font-family: var(--robo);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ash);
+    transition: color 0.23s linear, border 0.33s linear;
+}
+.rw_control button:hover {
+    color: var(--bla);
+    border: 2px solid var(--bla);
+}
+.wrapper {}
+.cp30 {
+    padding: 0 15px;
+}
+.cp30 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--bla);
+    margin-top: 15px;
+}
+.cp30 p {
+    font-size: 16px;
+    color: var(--ash);
+    margin-top: 10px;
+}
+
+.rw_item {
+    margin-bottom: 30px;
+    position: relative;
+}   
 
 /* Recent work ends here */
