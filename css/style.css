@@ -351,20 +351,56 @@ header{
 
 /* Recent work ends here */
 /* why choose us section start here */
-.w_item {
-    margin-top: 80px;
-    padding: 0 20px;
+.cm_why {
+    margin-bottom: 50px;
+}
+.feature-box {
+      border-bottom: 1px solid #ddd;
+      max-width: 400px;
+      transition: .3s ease;
+    }
+
+    .feature-header {
+      white-space: nowrap;
+    }
+
+    .feature-icon {
+      font-size: 50px;
+      vertical-align: middle;
+      color: #888;
+    }
+
+    .feature-title {
+      font-family: var(--lato);
+      font-size: 20px;
+      font-weight: 600;
+      display: inline-block;
+      margin-left: 20px;
+      color: #666;
+      vertical-align: middle;
+    }
+
+    .feature-desc {
+      font-family: var(--robo);
+      text-align: justify;
+      color: #888;
+      margin: 25px 0 25px 0;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .feature-box:hover {
+    border-color: #000;
+    }
+
+    .feature-box:hover .feature-icon,
+    .feature-box:hover .feature-title,
+    .feature-box:hover .feature-desc {
+    color: #000000;
+    }
     
-}
-.diamond {
-    font-size: 
-    48px;
-    
-}
-hr {
-    margin: 0 auto;
-    width: 415px;
-    height: 2px;
-    background-color: var(--ash);
-}
+   
+
+
 /* why choose us section ends here */
+
