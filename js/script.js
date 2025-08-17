@@ -12,3 +12,10 @@
 $(document).ready(function() {
   
 });
+
+  window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.body.classList.add('loaded');
+        document.getElementById('content').style.display = 'block';
+      }, 2000); // 2000ms = 2 seconds delay
+    });;

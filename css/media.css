@@ -139,6 +139,11 @@
         margin: 20px 0 0;
     }
     /* Recent work section ends here */
+    /* team start here */
+    .t_social {
+        top: 27%;
+        width: 37px;;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -197,6 +202,23 @@
         margin: 45px 0 30px;
     }
     /* Recent work section ends here */
+    /* team start here */
+    .t_social {
+        top: 23%;
+        width: 40px;;
+    }
+    .t_social ul li a i {
+            margin: 5px 0 7px;
+            font-size: 27px;
+        }
+    .t_social ul li a h2{
+        margin: 0;
+    }
+    .t_footer {
+        padding: 6px 15px;
+    }
+
+    /* Tean ends here */
 }
 
 
@@ -216,8 +238,16 @@
     padding: 8px 29px;
     border: 2px solid var(--bla);
     font-size: 14px;
-    /* about ends here */
 }
+/* about ends here */
+/* team start here */
+.t_social{
+    top: 17%;
+}
+.t_social ul li a {
+    font-size: 20px;
+}
+/* Team ends here */
 }
     
 /* Extra large devices (desktops, 1200px and up)*/
@@ -231,6 +261,18 @@
     margin-bottom: 10px;
 }
     /* about ends here */
+    /* team start here */
+    .t_social {
+        top:20%;
+        width: 40px;;
+    }
+    .t_social ul li a h2{
+        margin: 0;
+    }
+    .t_footer {
+        padding: 6px 15px;
+    }
+    /* Team ends here */
 }
     
     

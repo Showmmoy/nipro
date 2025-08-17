@@ -1,519 +1,759 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- fonts link here -->
-    <link rel="stylesheet" href="fonts/fontawesome-free-6.7.2-web/css/all.min.css">
-    <link rel="stylesheet" href="./pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- fonts link here -->
+      <link rel="stylesheet" href="fonts/fontawesome-free-6.7.2-web/css/all.min.css">
+      <link rel="stylesheet" href="./pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-     <!-- fonts linkends here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    
-    
+      <!-- fonts linkends here -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+      
+      
 
 
 </head>
-    <body>
-    <header class="shadow-sm">
-        <div class="container">
-        <!-- Navbar start here -->
-        <nav class="navbar navbar-expand-lg c_nav">
-        <div class="container-fluid px-0">
-    <!-- logo -->
-    <a class="navbar-brand logo" href="index.html">
+<body>
+   <div id="loader">Loading, please wait...</div>
+<header class="shadow-sm">
+  <div class="container">
+  <!-- Navbar start here -->
+  <nav class="navbar navbar-expand-lg c_nav">
+  <div class="container-fluid px-0">
+<!-- logo -->
+<a class="navbar-brand logo" href="index.html">
 
-        <h1 class="c_h1 mb-0">Nipro Agency</h1>
-        
-    </a>
-    <button class="navbar-toggler nt" type="button" data-bs-toggle="collapse" data-bs-target="#navsc" aria-controls="navsc" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Menu start here -->
-    <div class="menu collapse navbar-collapse" id="navsc">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-      <!-- search button syart here -->
-       <div class="dropdown s_search">
-        <a class="s_btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-magnifying-glass si"></i>
-        </a>
+  <h1 class="c_h1 mb-0">Nipro Agency</h1>
+  
+</a>
+<button class="navbar-toggler nt" type="button" data-bs-toggle="collapse" data-bs-target="#navsc" aria-controls="navsc" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Menu start here -->
+<div class="menu collapse navbar-collapse" id="navsc">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Service</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Portfolio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+  </li>
+</ul>
+<!-- search button syart here -->
+<div class="dropdown s_search">
+  <a class="s_btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa-solid fa-magnifying-glass si"></i>
+  </a>
 
-        <ul class="dropdown-menu sdm">
-            <form action="#">
-                <input type="search">
-                <button type="submit">
-                    <i class="fa-solid fa-magnifying-glass si"></i>
-                </button>
-            </form>
-        </ul>
-        </div>
-       <!-- search button ends here -->
-      <!-- Menu ends here -->
-    </div>
+  <ul class="dropdown-menu sdm">
+      <form action="#">
+          <input type="search">
+          <button type="submit">
+              <i class="fa-solid fa-magnifying-glass si"></i>
+          </button>
+      </form>
+  </ul>
   </div>
+<!-- search button ends here -->
+<!-- Menu ends here -->
+</div>
+</div>
 </nav>
 <!-- Navbar Ends here -->
-    </div>
+</div>
 </header>
 <!-- slider start here -->
-    <section class="slider">
-      <div class="container">
+<section class="slider">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7">
+    <!-- carousel start -->
+      <div id="sliderex" class="carousel slide">
+        <!-- inner start -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- Item Start -->
+            <div class="s_content">
+              <h1 class="s_h1 m-0">We Have a Talente Team</h1>
+              <p class="s_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+              <a class="btn btn_cm btn_slider" href="#">
+                LEARN MORE
+                <i class="fa-solid fa-right-long s_icon"></i>
+              </a>
+            </div>
+            <!-- Item End -->
+          </div>
+
+          <div class="carousel-item">
+            <!-- Item Start -->
+            <div class="s_content">
+              <h1 class="s_h1 m-0">We Have a Talente Team</h1>
+              <p class="s_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+              <a class="btn btn_cm btn_slider" href="#">
+                LEARN MORE
+                <i class="fa-solid fa-right-long s_icon"></i>
+              </a>
+            </div>
+            <!-- Item End -->
+          </div>
+
+          <div class="carousel-item">
+            <!-- Item Start -->
+            <div class="s_content">
+              <h1 class="s_h1 m-0">We Have a Talente Team</h1>
+              <p class="s_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+              <a class="btn btn_cm btn_slider" href="#">
+                LEARN MORE
+                <i class="fa-solid fa-right-long s_icon"></i>
+              </a>
+            </div>
+            <!-- Item End -->
+          </div>
+          
+        </div>
+        <!-- inner end -->
+        <button type="button" class="btn sl_btn sl_p">PREV</button>
+        <span class="s s1"></span>
+        <span class="s s2"></span>
+        <span class="s s3"></span>
+        <button type="button" class="btn sl_btn sl_n">NEXT</button>
+        <!-- controls start -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#sliderex" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria- hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sliderex" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-- controls end -->
+      </div>
+    <!-- carousel end -->
+    </div>
+  </div>
+</div>
+</section>
+<!-- slider ends here  -->
+<sectioon class="service pb_100">
+<div class="container">
+<div class="container">
+<div class="row">
+  <div class="col-lg-12">
+    <div class="cm_title text-center">
+      <div class="cm_shape m-auto"></div>
+      <h1 class="cm_h1">Welcome to nipro</h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <p class="service_p text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
+  </div>
+</div>
+<div class="row">
+  <!-- servicer  item start -->
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item text-center">
+      <div class="ser_icon">
+        <i class="pe-7s-diamond"></i>
+      </div>
+      <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
+      <div class="ser_shape"></div>
+      <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
+      <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  <!-- service item end here -->
+  <!-- servicer  item start -->
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item text-center">
+      <div class="ser_icon">
+        <i class="pe-7s-diamond"></i>
+      </div>
+      <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
+      <div class="ser_shape"></div>
+      <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
+      <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  <!-- service item end here -->
+  <!-- servicer  item start -->
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item text-center">
+      <div class="ser_icon">
+        <i class="pe-7s-diamond"></i>
+      </div>
+      <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
+      <div class="ser_shape"></div>
+      <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
+      <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  <!-- service item end here -->
+  <!-- servicer  item start -->
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item text-center">
+      <div class="ser_icon">
+        <i class="pe-7s-diamond"></i>
+      </div>
+      <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
+      <div class="ser_shape"></div>
+      <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
+      <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  <!-- service item end here -->
+</div>
+
+
+</div>
+</div>
+</sectioon>
+<!-- Service Ends Here -->
+<!-- About Section start Here  -->
+<section class="about pb_100">
+<div class="container">
+<div class="row align-items-center">
+  <div class="col-lg-5">
+    <div class="a_img">
+      <img src="./images/about-image.jpg" alt="nipro agency" class="w-100">
+    </div>
+  </div>
+  <div class="offset-lg-1 col-lg-5">
+    <div class="a_content">
+      <h1 class="cm_h1 a_h1">About Us</h1>
+      <p class="a_p">Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un</p>
+      <p class="a_p">with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.</p>
+      <a class="btn btn_cm btn_about" href="#">
+                LEARN MORE
+      <i class="fa-solid fa-right-long s_icon"></i>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- About Ends Here -->
+<!-- Recent Work section start here -->
+<section class="recent_work pb_100">
+<div class="container">
+<div class="row">
+  <div class="col-lg-12">
+    <div class="cm_title text-center">
+      <div class="cm_shape m-auto"></div>
+      <h1 class="cm_h1">Recent Work</h1>
+    </div>
+  </div>
+</div>
+<div class="row ">
+  <div class="col lg-12">
+    <div class="control rw_control text-center">
+      <button type="button items" data-filter="all">All</button>
+      <button type="button items" data-filter=".webdesign">Web Design</button>
+      <button type="button items" data-filter=".digitalmarketing">Digital Marketing</button>
+      <button type="button items" data-filter=".graphicsdesign">Graphics Design</button>
+      <button type="button items" data-filter=".wordpress">Wordpress</button>
+    </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="wrapper" data-ref="mixitup-container">
         <div class="row">
-          <div class="col-lg-7">
-          <!-- carousel start -->
-            <div id="sliderex" class="carousel slide">
-              <!-- inner start -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <!-- Item Start -->
-                  <div class="s_content">
-                    <h1 class="s_h1 m-0">We Have a Talente Team</h1>
-                    <p class="s_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
-                    <a class="btn btn_cm btn_slider" href="#">
-                      LEARN MORE
-                      <i class="fa-solid fa-right-long s_icon"></i>
-                    </a>
-                  </div>
-                  <!-- Item End -->
-                </div>
+          <!-- Recent work item 1-->
+          <div class="col-lg-4 col-sm-6 mix webdesign cp30" data-order="1" data-ref="mixitup-target">
+            <div class="rw_item">
+              <img src="images/wd.jpg" alt="nipro agency" class="w-100">
+              <!-- card content -->
+              <div class="card-content">
+                <h1 class="card-heading">Website Design</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
+                  <a class="btn btn_cm btn_about mt-3" href="#">
+                  View Projects
+                  <i class="fa-solid fa-arrow-right s_icon"></i>
+                </a>
+                </p>
+              </div>
+              <!-- Card content ends here -->
 
-                <div class="carousel-item">
-                  <!-- Item Start -->
-                  <div class="s_content">
-                    <h1 class="s_h1 m-0">We Have a Talente Team</h1>
-                    <p class="s_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
-                    <a class="btn btn_cm btn_slider" href="#">
-                      LEARN MORE
-                      <i class="fa-solid fa-right-long s_icon"></i>
-                    </a>
-                  </div>
-                  <!-- Item End -->
-                </div>
-
-                <div class="carousel-item">
-                  <!-- Item Start -->
-                  <div class="s_content">
-                    <h1 class="s_h1 m-0">We Have a Talente Team</h1>
-                    <p class="s_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
-                    <a class="btn btn_cm btn_slider" href="#">
-                      LEARN MORE
-                      <i class="fa-solid fa-right-long s_icon"></i>
-                    </a>
-                  </div>
-                  <!-- Item End -->
-                </div>
+            </div>
+          </div>
+          <!-- Recent work item ends-->
+          <!-- Recent work item 2-->
+          <div class="col-lg-4 col-sm-6 mix webdesign cp30" data-order="2" data-ref="mixitup-target">
+            <div class="rw_item">
+              <img src="images/wd2.jpg" alt="nipro agency" class="w-100">
+              <!-- card content -->
+              <div class="card-content">
+                <h1 class="card-heading">Website Design</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
+                  <a class="btn btn_cm btn_about mt-3" href="#">
+                  View Projects
+                  <i class="fa-solid fa-arrow-right s_icon"></i>
+                </a>
+                </p>
+              </div>
+              <!-- Card content ends here -->
+            </div>
+          </div>
+          <!-- Recent work item ends-->
+          <!-- Recent work item 3-->
+          <div class="col-lg-4 col-sm-6 mix digitalmarketing cp30" data-order="3" data-ref="mixitup-target">
+            <div class="rw_item">
+              <img src="images/dm.jpg" alt="nipro agency" class="w-100">
+                <!-- card content -->
+              <div class="card-content">
+                <h1 class="card-heading">Website Design</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
+                  <a class="btn btn_cm btn_about mt-3" href="#">
+                  View Projects
+                  <i class="fa-solid fa-arrow-right s_icon"></i>
+                </a>
+                </p>
+              </div>
+              <!-- Card content ends here -->
+            </div>
+          </div>
+          <!-- Recent work item ends-->
+          <!-- Recent work item 4-->
+          <div class="col-lg-4 col-sm-6 mix digitalmarketing cp30" data-order="4" data-ref="mixitup-target">
+            <div class="rw_item">
+              <img src="images/wd2.jpg" alt="nipro agency" class="w-100">
+              <!-- card content -->
+              <div class="card-content">
+                <h1 class="card-heading">Website Design</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
+                  <a class="btn btn_cm btn_about mt-3" href="#">
+                  View Projects
+                  <i class="fa-solid fa-arrow-right s_icon"></i>
+                </a>
+                </p>
+              </div>
+              <!-- Card content ends here -->
+            </div>
+          </div>
+          <!-- Recent work item ends-->
+          <!-- Recent work item 5-->
+          <div class="col-lg-4 col-sm-6 mix graphicsdesign cp30" data-order="5" data-ref="mixitup-target">
+            <div class="rw_item">
+              <img src="images/gd.jpg" alt="nipro agency" class="w-100">
+              <!-- card content -->
+              <div class="card-content">
+                <h1 class="card-heading">Website Design</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
+                  <a class="btn btn_cm btn_about mt-3" href="#">
+                  View Projects
+                  <i class="fa-solid fa-arrow-right s_icon"></i>
+                </a>
+                </p>
+              </div>
+              <!-- Card content ends here -->
+            </div>
+          </div>
+          <!-- Recent work item ends-->
+          <!-- Recent work item 6-->
+          <div class="col-lg-4 col-sm-6 mix wordpress cp30" data-order="6" data-ref="mixitup-target">
+            <div class="rw_item">
+              <img src="images/gd.jpg" alt="nipro agency" class="w-100">
+              <!-- card content -->
+              <div class="card-content">
+                <h1 class="card-heading">Website Design</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
+                  <a class="btn btn_cm btn_about mt-3" href="#">
+                  View Projects
+                  <i class="fa-solid fa-arrow-right s_icon"></i>
+                </a>
+                </p>
                 
               </div>
-              <!-- inner end -->
-               <button type="button" class="btn sl_btn sl_p">PREV</button>
-               <span class="s s1"></span>
-               <span class="s s2"></span>
-               <span class="s s3"></span>
-               <button type="button" class="btn sl_btn sl_n">NEXT</button>
-              <!-- controls start -->
-              <button class="carousel-control-prev" type="button" data-bs-target="#sliderex" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria- hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#sliderex" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-              <!-- controls end -->
+              <!-- Card content ends here -->
             </div>
-          <!-- carousel end -->
           </div>
+          <!-- Recent work item ends-->
         </div>
+    
       </div>
-    </section>
-<!-- slider ends here  -->
- <sectioon class="service pb_100">
+    </div>
+</div>
+</div>
+</section>
+<!-- Recent work section ends here -->
+<!-- Why Chose us section start here -->
+
+<section class="whychoose pb_100">
+<div class="container ">
+<div class="row">
+  <div class="col-lg-12">
+    <div class="cm_title text-center cm_why">
+      <div class="cm_shape m-auto"></div>
+      <h1 class="cm_h1">Why Choose Us</h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <!-- single feature start here -->
+  <div class="col-lg-4 col-sm-6">
+    <div class="container mt-5">
+    <div class="feature-box p-0">
+      <div class="feature-header">
+      <i class="pe-7s-diamond feature-icon"></i>
+      <span class="feature-title">CREATIVE DESIGN</span>
+      </div>
+      <p class="feature-desc">
+      Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
+      </p>
+      </div>
+    </div>
+  </div>
+  <!-- single feature ends here -->
+  <!-- single feature start here -->
+  <div class="col-lg-4 col-sm-6">
+    <div class="container mt-5">
+    <div class="feature-box p-0">
+      <div class="feature-header">
+      <i class="pe-7s-diamond feature-icon"></i>
+      <span class="feature-title">CREATIVE DESIGN</span>
+      </div>
+      <p class="feature-desc">
+      Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
+      </p>
+      </div>
+    </div>
+  </div>
+  <!-- single feature ends here -->
+  <!-- single feature start here -->
+  <div class="col-lg-4 col-sm-6">
+    <div class="container mt-5">
+    <div class="feature-box p-0">
+      <div class="feature-header">
+      <i class="pe-7s-diamond feature-icon"></i>
+      <span class="feature-title">CREATIVE DESIGN</span>
+      </div>
+      <p class="feature-desc">
+      Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
+      </p>
+      </div>
+    </div>
+  </div>
+  <!-- single feature ends here -->
+  <!-- single feature start here -->
+  <div class="col-lg-4 col-sm-6">
+    <div class="container mt-5">
+    <div class="feature-box p-0">
+      <div class="feature-header">
+      <i class="pe-7s-diamond feature-icon"></i>
+      <span class="feature-title">CREATIVE DESIGN</span>
+      </div>
+      <p class="feature-desc">
+      Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
+      </p>
+      </div>
+    </div>
+  </div>
+  <!-- single feature ends here -->
+  <!-- single feature start here -->
+  <div class="col-lg-4 col-sm-6">
+    <div class="container mt-5">
+    <div class="feature-box p-0">
+      <div class="feature-header">
+      <i class="pe-7s-diamond feature-icon"></i>
+      <span class="feature-title">CREATIVE DESIGN</span>
+      </div>
+      <p class="feature-desc">
+      Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
+      </p>
+      </div>
+    </div>
+  </div>
+  <!-- single feature ends here -->
+  <!-- single feature start here -->
+  <div class="col-lg-4 col-sm-6">
+    <div class="container mt-5">
+    <div class="feature-box p-0">
+      <div class="feature-header">
+      <i class="pe-7s-diamond feature-icon"></i>
+      <span class="feature-title">CREATIVE DESIGN</span>
+      </div>
+      <p class="feature-desc">
+      Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
+      </p>
+      </div>
+    </div>
+  </div>
+  <!-- single feature ends here -->
+  
+</div>
+</div>
+</section>
+<!-- Why choose us section ends here -->
+<!-- team section start here -->
+<section class="team pb_100">
   <div class="container">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="cm_title text-center">
-            <div class="cm_shape m-auto"></div>
-            <h1 class="cm_h1">Welcome to nipro</h1>
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="cm_title text-center cm_why">
+      <div class="cm_shape m-auto"></div>
+      <h1 class="cm_h1">Who Work with us</h1>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+      <!-- team start here -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="t_member">
+          <div class="t_img">
+          <img src="images/t1.jpg" class="w-100" alt="Young man with light brown hair wearing a light blue collared shirt, standing upright in a modern office environment with glass and brick elements in the background, conveying a calm and professional atmosphere">
+          <div class="t_social">
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              </li>
+              <li><a href="'#" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              </li>
+              <li><a href="#" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              </li>
+              <li><a href="#" title="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="t_footer bg-white">
+            <h2>John Doe</h2>
+            <p class="mb-0">Web Designer</p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <p class="service_p text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
+      <!-- team ends here -->
+       <!-- team start here -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="t_member">
+          <div class="t_img">
+          <img src="images/t1.jpg" class="w-100" alt="Young man with light brown hair wearing a light blue collared shirt, standing upright in a modern office environment with glass and brick elements in the background, conveying a calm and professional atmosphere">
+          <div class="t_social">
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              </li>
+              <li><a href="'#" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              </li>
+              <li><a href="#" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              </li>
+              <li><a href="#" title="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="t_footer bg-white">
+            <h2>John Doe</h2>
+            <p class="mb-0">Web Designer</p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <!-- servicer  item start -->
-        <div class="col-lg-3 col-sm-6">
-          <div class="ser_item text-center">
-            <div class="ser_icon">
-              <i class="pe-7s-diamond"></i>
-            </div>
-            <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
-            <div class="ser_shape"></div>
-            <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-            <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
+      <!-- team ends here -->
+       <!-- team start here -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="t_member">
+          <div class="t_img">
+          <img src="images/t1.jpg" class="w-100" alt="Young man with light brown hair wearing a light blue collared shirt, standing upright in a modern office environment with glass and brick elements in the background, conveying a calm and professional atmosphere">
+          <div class="t_social">
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              </li>
+              <li><a href="'#" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              </li>
+              <li><a href="#" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              </li>
+              <li><a href="#" title="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="t_footer bg-white">
+            <h2>John Doe</h2>
+            <p class="mb-0">Web Designer</p>
           </div>
         </div>
-        <!-- service item end here -->
-         <!-- servicer  item start -->
-        <div class="col-lg-3 col-sm-6">
-          <div class="ser_item text-center">
-            <div class="ser_icon">
-              <i class="pe-7s-diamond"></i>
-            </div>
-            <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
-            <div class="ser_shape"></div>
-            <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-            <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
-          </div>
-        </div>
-        <!-- service item end here -->
-         <!-- servicer  item start -->
-        <div class="col-lg-3 col-sm-6">
-          <div class="ser_item text-center">
-            <div class="ser_icon">
-              <i class="pe-7s-diamond"></i>
-            </div>
-            <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
-            <div class="ser_shape"></div>
-            <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-            <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
-          </div>
-        </div>
-        <!-- service item end here -->
-         <!-- servicer  item start -->
-        <div class="col-lg-3 col-sm-6">
-          <div class="ser_item text-center">
-            <div class="ser_icon">
-              <i class="pe-7s-diamond"></i>
-            </div>
-            <h2 class="ser_h2 text-uppercase m-0">Branding</h2>
-            <div class="ser_shape"></div>
-            <p class="ser_p">Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-            <a href="#" class="ser_a">More  <i class="fa-solid fa-right-long s_icon"></i></a>
-          </div>
-        </div>
-        <!-- service item end here -->
       </div>
-      
+      <!-- team ends here -->
+       <!-- team start here -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="t_member">
+          <div class="t_img">
+          <img src="images/t1.jpg" class="w-100" alt="Young man with light brown hair wearing a light blue collared shirt, standing upright in a modern office environment with glass and brick elements in the background, conveying a calm and professional atmosphere">
+          <div class="t_social">
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" title="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              </li>
+              <li><a href="'#" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              </li>
+              <li><a href="#" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              </li>
+              <li><a href="#" title="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="t_footer bg-white">
+            <h2>John Doe</h2>
+            <p class="mb-0">Web Designer</p>
+          </div>
+        </div>
+      </div>
+      <!-- team ends here -->
       
     </div>
   </div>
- </sectioon>
- <!-- Service Ends Here -->
- <!-- About Section start Here  -->
-  <section class="about pb_100">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-5">
-          <div class="a_img">
-            <img src="./images/about-image.jpg" alt="nipro agency" class="w-100">
-          </div>
-        </div>
-        <div class="offset-lg-1 col-lg-5">
-          <div class="a_content">
-            <h1 class="cm_h1 a_h1">About Us</h1>
-            <p class="a_p">Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un</p>
-            <p class="a_p">with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.</p>
-            <a class="btn btn_cm btn_about" href="#">
-                      LEARN MORE
-            <i class="fa-solid fa-right-long s_icon"></i>
-            </a>
-          </div>
-        </div>
-      </div>
+</section>
+<!-- team section ends here -->
+<!-- Pricing Section start here -->
+ <section class="pricing">
+  <div class="container">
+    <div class="row">
+ <div class="col-lg-12">
+    <div class="cm_title text-center">
+      <div class="cm_shape m-auto"></div>
+      <h1 class="cm_h1">Best Pricing</h1>
     </div>
+    </div>
+  </div>
+  <div class="row">
+  <!-- servicer  item start -->
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item">
+      <div class="ser_icon ser_char">
+        <h3>BASIC</h3>
+    </div>
+    <div class="pricing-table">
+      <p class="price">
+        <span class="amount">$29</span>/ Per Month</p>
+      <ul>
+          <li>-1Tb Storage</li>
+          <li>-Unlimited Members</li>
+          <li>-50 Project</li>
+          <li>-70GB Bandwidth</li>
+          <li>-24/7 Customer Support</li>
+        </ul>
+      <a href="#" class="ser_a ser_b">SIGN UP  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item">
+      <div class="ser_icon ser_char">
+        <h3>BASIC</h3>
+    </div>
+    <div class="pricing-table">
+      <p class="price">
+        <span class="amount">$29</span>/ Per Month</p>
+      <ul>
+          <li>-1Tb Storage</li>
+          <li>-Unlimited Members</li>
+          <li>-50 Project</li>
+          <li>-70GB Bandwidth</li>
+          <li>-24/7 Customer Support</li>
+        </ul>
+      <a href="#" class="ser_a ser_b">SIGN UP  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item">
+      <div class="ser_icon ser_char">
+        <h3>BASIC</h3>
+    </div>
+    <div class="pricing-table">
+      <p class="price">
+        <span class="amount">$29</span>/ Per Month</p>
+      <ul>
+          <li>-1Tb Storage</li>
+          <li>-Unlimited Members</li>
+          <li>-50 Project</li>
+          <li>-70GB Bandwidth</li>
+          <li>-24/7 Customer Support</li>
+        </ul>
+      <a href="#" class="ser_a ser_b">SIGN UP  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-3 col-sm-6">
+    <div class="ser_item">
+      <div class="ser_icon ser_char">
+        <h3>BASIC</h3>
+    </div>
+    <div class="pricing-table">
+      <p class="price">
+        <span class="amount">$29</span>/ Per Month</p>
+      <ul>
+          <li>-1Tb Storage</li>
+          <li>-Unlimited Members</li>
+          <li>-50 Project</li>
+          <li>-70GB Bandwidth</li>
+          <li>-24/7 Customer Support</li>
+        </ul>
+      <a href="#" class="ser_a ser_b">SIGN UP  <i class="fa-solid fa-right-long s_icon"></i></a>
+    </div>
+  </div>
+  </div>
   </section>
- <!-- About Ends Here -->
-  <!-- Recent Work section start here -->
-  <section class="recent_work pb_100">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="cm_title text-center">
-            <div class="cm_shape m-auto"></div>
-            <h1 class="cm_h1">Recent Work</h1>
-          </div>
-        </div>
-      </div>
-      <div class="row ">
-        <div class="col lg-12">
-          <div class="control rw_control text-center">
-            <button type="button items" data-filter="all">All</button>
-            <button type="button items" data-filter=".webdesign">Web Design</button>
-            <button type="button items" data-filter=".digitalmarketing">Digital Marketing</button>
-            <button type="button items" data-filter=".graphicsdesign">Graphics Design</button>
-            <button type="button items" data-filter=".wordpress">Wordpress</button>
-          </div>
-          </div>
-          <div class="col-lg-12">
-            <div class="wrapper" data-ref="mixitup-container">
-              <div class="row">
-                <!-- Recent work item 1-->
-                <div class="col-lg-4 col-sm-6 mix webdesign cp30" data-order="1" data-ref="mixitup-target">
-                  <div class="rw_item">
-                    <img src="images/wd.jpg" alt="nipro agency" class="w-100">
-                    <!-- card content -->
-                     <div class="card-content">
-                      <h1 class="card-heading">Website Design</h1>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
-                        <a class="btn btn_cm btn_about mt-3" href="#">
-                        View Projects
-                        <i class="fa-solid fa-arrow-right s_icon"></i>
-                      </a>
-                      </p>
-                     </div>
-                     <!-- Card content ends here -->
-
-                  </div>
-                </div>
-                <!-- Recent work item ends-->
-                 <!-- Recent work item 2-->
-                <div class="col-lg-4 col-sm-6 mix webdesign cp30" data-order="2" data-ref="mixitup-target">
-                  <div class="rw_item">
-                    <img src="images/wd2.jpg" alt="nipro agency" class="w-100">
-                    <!-- card content -->
-                     <div class="card-content">
-                      <h1 class="card-heading">Website Design</h1>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
-                        <a class="btn btn_cm btn_about mt-3" href="#">
-                        View Projects
-                        <i class="fa-solid fa-arrow-right s_icon"></i>
-                      </a>
-                      </p>
-                     </div>
-                     <!-- Card content ends here -->
-                  </div>
-                </div>
-                <!-- Recent work item ends-->
-                 <!-- Recent work item 3-->
-                <div class="col-lg-4 col-sm-6 mix digitalmarketing cp30" data-order="3" data-ref="mixitup-target">
-                  <div class="rw_item">
-                    <img src="images/dm.jpg" alt="nipro agency" class="w-100">
-                      <!-- card content -->
-                     <div class="card-content">
-                      <h1 class="card-heading">Website Design</h1>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
-                        <a class="btn btn_cm btn_about mt-3" href="#">
-                        View Projects
-                        <i class="fa-solid fa-arrow-right s_icon"></i>
-                      </a>
-                      </p>
-                     </div>
-                     <!-- Card content ends here -->
-                  </div>
-                </div>
-                <!-- Recent work item ends-->
-                 <!-- Recent work item 4-->
-                <div class="col-lg-4 col-sm-6 mix digitalmarketing cp30" data-order="4" data-ref="mixitup-target">
-                  <div class="rw_item">
-                    <img src="images/wd2.jpg" alt="nipro agency" class="w-100">
-                    <!-- card content -->
-                     <div class="card-content">
-                      <h1 class="card-heading">Website Design</h1>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
-                        <a class="btn btn_cm btn_about mt-3" href="#">
-                        View Projects
-                        <i class="fa-solid fa-arrow-right s_icon"></i>
-                      </a>
-                      </p>
-                     </div>
-                     <!-- Card content ends here -->
-                  </div>
-                </div>
-                <!-- Recent work item ends-->
-                 <!-- Recent work item 5-->
-                <div class="col-lg-4 col-sm-6 mix graphicsdesign cp30" data-order="5" data-ref="mixitup-target">
-                  <div class="rw_item">
-                    <img src="images/gd.jpg" alt="nipro agency" class="w-100">
-                    <!-- card content -->
-                     <div class="card-content">
-                      <h1 class="card-heading">Website Design</h1>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
-                        <a class="btn btn_cm btn_about mt-3" href="#">
-                        View Projects
-                        <i class="fa-solid fa-arrow-right s_icon"></i>
-                      </a>
-                      </p>
-                     </div>
-                     <!-- Card content ends here -->
-                  </div>
-                </div>
-                <!-- Recent work item ends-->
-                 <!-- Recent work item 6-->
-                <div class="col-lg-4 col-sm-6 mix wordpress cp30" data-order="6" data-ref="mixitup-target">
-                  <div class="rw_item">
-                    <img src="images/gd.jpg" alt="nipro agency" class="w-100">
-                    <!-- card content -->
-                     <div class="card-content">
-                      <h1 class="card-heading">Website Design</h1>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores amet laborum asperiores ipsam id dolores soluta, expedita magnam. Numquam illum eligendi est maxime nemo fugiat aut minus quaerat sunt quos?
-                        <a class="btn btn_cm btn_about mt-3" href="#">
-                        View Projects
-                        <i class="fa-solid fa-arrow-right s_icon"></i>
-                      </a>
-                      </p>
-                      
-                     </div>
-                     <!-- Card content ends here -->
-                  </div>
-                </div>
-                <!-- Recent work item ends-->
-              </div>
-           
-            </div>
-          </div>
-      </div>
-      </div>
-      </section>
-  <!-- Recent work section ends here -->
-   <!-- Why Chose us section start here -->
-  
-  <section class="whychoose pb_100">
-    <div class="container ">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="cm_title text-center cm_why">
-            <div class="cm_shape m-auto"></div>
-            <h1 class="cm_h1">Why Choose Us</h1>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <!-- single feature start here -->
-        <div class="col-lg-4 col-sm-6">
-          <div class="container mt-5">
-          <div class="feature-box p-0">
-            <div class="feature-header">
-            <i class="pe-7s-diamond feature-icon"></i>
-            <span class="feature-title">CREATIVE DESIGN</span>
-            </div>
-            <p class="feature-desc">
-            Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
-            </p>
-            </div>
-          </div>
-        </div>
-        <!-- single feature ends here -->
-         <!-- single feature start here -->
-        <div class="col-lg-4 col-sm-6">
-          <div class="container mt-5">
-          <div class="feature-box p-0">
-            <div class="feature-header">
-            <i class="pe-7s-diamond feature-icon"></i>
-            <span class="feature-title">CREATIVE DESIGN</span>
-            </div>
-            <p class="feature-desc">
-            Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
-            </p>
-            </div>
-          </div>
-        </div>
-        <!-- single feature ends here -->
-         <!-- single feature start here -->
-        <div class="col-lg-4 col-sm-6">
-          <div class="container mt-5">
-          <div class="feature-box p-0">
-            <div class="feature-header">
-            <i class="pe-7s-diamond feature-icon"></i>
-            <span class="feature-title">CREATIVE DESIGN</span>
-            </div>
-            <p class="feature-desc">
-            Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
-            </p>
-            </div>
-          </div>
-        </div>
-        <!-- single feature ends here -->
-         <!-- single feature start here -->
-        <div class="col-lg-4 col-sm-6">
-          <div class="container mt-5">
-          <div class="feature-box p-0">
-            <div class="feature-header">
-            <i class="pe-7s-diamond feature-icon"></i>
-            <span class="feature-title">CREATIVE DESIGN</span>
-            </div>
-            <p class="feature-desc">
-            Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
-            </p>
-            </div>
-          </div>
-        </div>
-        <!-- single feature ends here -->
-         <!-- single feature start here -->
-        <div class="col-lg-4 col-sm-6">
-          <div class="container mt-5">
-          <div class="feature-box p-0">
-            <div class="feature-header">
-            <i class="pe-7s-diamond feature-icon"></i>
-            <span class="feature-title">CREATIVE DESIGN</span>
-            </div>
-            <p class="feature-desc">
-            Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
-            </p>
-            </div>
-          </div>
-        </div>
-        <!-- single feature ends here -->
-         <!-- single feature start here -->
-        <div class="col-lg-4 col-sm-6">
-          <div class="container mt-5">
-          <div class="feature-box p-0">
-            <div class="feature-header">
-            <i class="pe-7s-diamond feature-icon"></i>
-            <span class="feature-title">CREATIVE DESIGN</span>
-            </div>
-            <p class="feature-desc">
-            Lorem Ipsum is simply dummy lol is the printing typesetting industry. Lorem, ipsum dolor.
-            </p>
-            </div>
-          </div>
-        </div>
-        <!-- single feature ends here -->
-        
-      </div>
-      </div>
-      </section>
-    <!-- Why choose us section ends here -->
-
-  
+ <!-- Pricing Section Ends here -->
 
 
-      <script src="js/jquery.min.js"></script>
-      <script src="vendor/mixitup-3/mixitup.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/script.js"></script>
-     
-      
+
+<script src="js/jquery.min.js"></script>
+<script src="vendor/mixitup-3/mixitup.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+
 </body>
 
-    
-</html>
+      
+  </html>
